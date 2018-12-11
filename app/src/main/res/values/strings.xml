@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Awesome Quiz</string>
+    <string name="title_activity_manage_quiz">ManageQuiz</string>
+    <string name="title_activity_add_question">AddQuestion</string>
+    <string name="title_activity_delete_question">DeleteQuestion</string>
+    <string name="title_activity_change_question">ChangeQuestion</string>
+</resources>

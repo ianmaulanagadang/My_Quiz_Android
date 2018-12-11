@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageQuiz">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Quiz"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/titlecantik"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD question"
+        android:layout_below="@id/titlecantik"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_add"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add"
+        android:text="delete question"
+        android:id="@+id/button_delete"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_delete"
+        android:text="Back to home"
+        android:id="@+id/button_back"/>
+
+</RelativeLayout>
